@@ -1,4 +1,4 @@
-How Stargazing Moments came up ? Well, 
+How the idea of Stargazing Moments came up ? Well, 
 ______________________________________
 
 
