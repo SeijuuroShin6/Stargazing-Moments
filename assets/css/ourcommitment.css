@@ -1,0 +1,344 @@
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+/*Header*/
+header {
+  background-image: url(/assets/img/illustrations/BG3.jpg);  
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+  
+h1 {
+  font-family: 'Konkhmer Sleokchher';
+  font-size: 6rem;
+  text-align: center;
+  justify-content: center;
+  background: linear-gradient(90deg, #12C2E9 0%, #c471ed 50%, #f64f59 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-top: 13rem;
+  margin-left: 2rem;
+}
+  
+#nd-title {    
+  font-family: 'Paytone One', serif;
+  text-align: center;
+  justify-content: center;
+  font-size:25px;
+  background: linear-gradient(90deg, #D3CCE3 0%, #E9E4F0 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;  
+}
+  
+#nd-title:hover { 
+  text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+  transition: all 0.4s ease 0s;
+}
+
+.login-out-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#log {
+  font-family: 'Prompt', sans-serif;
+  background: rgba( 255, 255, 255, 0.05 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 12px );
+  -webkit-backdrop-filter: blur( 12px );
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  color: whitesmoke;
+  font-weight: bold;
+  padding: 13px;
+  font-size: .8em;
+  cursor: pointer;
+  border-radius: 5em;
+  margin: 1em;
+  text-decoration: none;
+}
+
+#log:hover {
+  background-color: black;
+  color: whitesmoke;
+  text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+  transition: all 0.4s ease 0s;
+}
+
+.arrow {
+  color: whitesmoke;
+  margin-top: 6em;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+/*End Of Header*/
+
+
+/*Nav Bar*/
+#nav {
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Prompt', sans-serif;
+  position: fixed;
+  top:0;
+  width: 100%;
+  z-index: 5;
+}
+
+#home-lnk {
+  text-decoration: none;
+}
+
+.tablet-res {
+  display: none;
+}
+
+.logo {
+  font-size: 30px;
+  background: linear-gradient(90deg, #12C2E9 0%, #c471ed 50%, #f64f59 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  float: left;
+  font-family: 'Zen Dots', sans-serif;
+  font-style: oblique;
+  margin-top: 10px;
+  padding: 20px;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+#ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 16px;
+  width: 80%;
+  gap: .6em;
+}
+
+#li {
+  margin-top: 30px; 
+  cursor: pointer;
+}
+
+.mn {
+  text-decoration: none;
+  color: white;
+  padding: 13px;
+}
+
+.mn:hover {
+  background: linear-gradient(90deg, #12C2E9 0%, #c471ed 50%, #f64f59 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#mni {
+  padding: 10px;
+  margin-bottom: 30px;
+}
+/*End Of Nav Bar*/
+        
+
+
+/*Body*/
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;   
+  box-sizing: border-box;
+  overflow-x: hidden; 
+  background: black;
+}
+
+
+/*Main Content*/
+.container {
+  display: block;
+  font-family: 'Konkhmer Sleokchher';
+  align-items: center;
+  margin: 6em 9em 9em 9em;
+}
+
+#grid {
+  color: whitesmoke;
+  text-align: justify;
+  padding: 10px 25px;
+  background-color: #100c08;
+  border-radius: 1em;
+  height: 230px;
+  font-size: 16px;
+  margin: 4em 0 4em 0;
+}
+
+#img {
+  float: right;
+  margin-top: 1.3em;
+}
+
+h2 {
+  font-family: 'Anek Malayalam', sans-serif;
+  background: linear-gradient(90deg, #12C2E9 0%, #c471ed 50%, #f64f59 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: left;
+  margin-left: 2em;
+  margin-top: 1em;
+}  
+  
+.item {
+  font-family: 'Konkhmer Sleokchher';
+  color: whitesmoke;
+  font-size: 1em;
+  text-align: justify;
+  padding: .5em 3em 3em 3em;
+  margin-top: 1em;
+}
+/*End Of Main Content*/
+/*End Of Body*/
+
+
+
+/*Footer*/  
+.footer-line{
+  border-top: 1px solid whitesmoke;
+  margin-bottom: 5em;
+}
+
+footer {
+  background-color: black;
+  margin-top: auto;
+}
+
+.footer-line{
+  border-top: 1px solid whitesmoke;
+  margin-bottom: 5em;
+}
+
+ol {
+  list-style: none;
+}
+
+.footer-menu {
+  color: white;
+  font-family: 'Prompt', sans-serif;
+  float: left;
+  margin-left: 3rem;
+  margin-top: -5em;
+}
+
+.footer-nav {
+  margin-top: 2em;
+  cursor: pointer;
+}
+
+.footer-nav:hover {
+  background: linear-gradient(90deg, #12C2E9 0%, #c471ed 50%, #f64f59 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#footer-icon-nav {
+  margin-right: .6em;
+}
+
+#payment-m {
+  float: right;
+  margin-right: 3rem;
+  margin-top: -3.5em;
+}
+
+.payment-list {
+  display: inline-block;
+}
+
+.center-link {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: block;
+  margin-bottom: 5rem;
+  margin-right: 13rem;
+}
+
+.footer-link {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+.link-list {
+  display: inline-flex;
+}
+
+#footer-list-link {
+  text-decoration: none;
+  color: white;
+  font-family: 'Prompt', sans-serif;
+  margin-right: 2em;
+}
+
+#footer-list-link:hover {
+  background: linear-gradient(90deg, #12C2E9 0%, #c471ed 50%, #f64f59 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#link-icon {
+  margin-right: .6em;
+}
+
+.sm-link {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: 'Prompt', sans-serif;
+}
+
+h3:hover {
+  text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+  transition: all 0.4s ease 0s;
+}
+
+.ul-sm {
+  margin: .7em;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+#ic-sm {
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.sm-list {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+#mentions {
+  font-size: 11px;
+  background-color:#301934;
+  font-family: Arial, Helvetica, sans-serif;
+  color: lightgray;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+}
+/*End Of Footer*/

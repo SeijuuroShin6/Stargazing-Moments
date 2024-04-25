@@ -1,0 +1,180 @@
+/*Laptops*/
+@media screen and (min-width: 1149px) and (max-width: 1440px) {
+/*Nav Bar*/
+.tablet-res {
+  display: none;
+}
+
+#icons {
+  display: none;
+}
+
+#ul {
+  margin: 0em 10em 0 10em;
+}
+/*End Of Nav Bar*/
+}
+/*End Of Laptops*/
+
+
+
+/*Tablets*/
+@media screen and (min-width: 785px) and (max-width: 1148px) {
+/*Nav Bar*/
+.logo {
+  display: none;
+}
+
+#icons {
+  display: none;
+}
+
+.tablet-res {
+  display: block;
+  font-size: 30px;
+  background: linear-gradient(90deg, #12C2E9 0%, #c471ed 50%, #f64f59 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Zen Dots', sans-serif;
+  font-style: oblique;
+  padding-top: .5em;
+}
+
+#ul {
+  width: 100%;
+  margin-left: -0em;
+}
+/*End Of Nav Bar*/
+
+
+/*Header*/
+header {
+  height: 100vh;
+}
+/*End Of Header*/
+
+
+/*Body*/
+.partners-container1 {
+  margin: 6em 0em 5em 0em;
+}
+
+.partners-container2 {
+  margin: 0em 0em 5em 0em;
+}
+
+.partners1, .partners2, .partners3, .partners4 {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+/*End Of Body*/
+
+
+/*Footer*/
+.sm-link {
+  display: inline-block;
+  margin-top: 3em;
+  margin-left: 13em;
+}
+/*End Of Footer*/
+}
+/*End Of Tablets*/
+
+
+
+/*Phone*/
+@media screen and (min-width: 320px) and (max-width: 784px) {
+/*Nav Bar*/
+.tablet-res {
+  display: none;
+}
+
+#icons {
+  float: right;
+  margin: 1em;
+  font-size: 1.6em;
+  display: block;
+  color: white;
+}
+
+#icons:before {
+  content: "\2630";  
+  cursor: pointer;
+}
+
+.active #icons:before {
+  content: "\2715";
+  cursor: pointer;
+}
+
+#nav #ul {
+  position: fixed;
+  left: -100%;
+  top: 10%;
+  flex-direction: column;
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  transition: 0.25s;
+}
+
+#nav #li {
+  padding: 3px 0;
+}
+
+#nav.active #ul {
+  left: 0;
+}
+/*End Of Nav Bar*/
+
+
+/*Header*/
+h1 {
+  font-size: 4.5em;
+}
+/*End Of Header*/
+
+
+/*Body*/
+.partners-container1, .partners-container2 {
+  display: block;
+}
+
+.partners1, .partners2, .partners3, .partners4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#item, #Dojo {
+  margin: 3em 6em 3em 0;
+}
+
+#img-partners {
+  width: 300px;
+
+}
+/*End Of Body*/
+
+
+/*Footer*/
+.link-list {
+  margin-top: 4.5em;
+}
+
+.footer-link {
+  margin-right: 3em;
+  margin-left: 3.5em;
+}
+
+h3 {
+  margin-top: 3em;
+}
+  
+.center-link {
+  width: 100%;
+}
+/*End Of Footer*/
+}
+/*End Of Phone*/

@@ -1,0 +1,204 @@
+/*Laptops*/
+@media screen and (min-width: 1149px) and (max-width: 1440px) {
+/*Nav Bar*/
+#icons {
+  display: none;
+}
+
+#ul {
+  margin: 0em 10em 0em 10em;
+}
+/*End Of Nav Bar*/
+}
+/*End Of Laptops*/
+
+
+
+/*Tablets*/
+@media screen and (min-width: 785px) and (max-width: 1148px) {
+/*Nav Bar*/
+.logo {
+  display: none;
+}
+
+#icons {
+  display: none;
+}
+
+#ul {
+  width: 100%;
+  margin-left: -0em;
+}
+/*End Of Nav Bar*/
+
+
+/*Header*/
+header {
+  height: 100vh;
+}
+
+h1 {
+  margin-bottom: -3em;
+}
+
+#nd-title {
+  margin-top: 10em;
+}
+/*End Of Header*/
+
+
+/*Body*/
+#One {
+  background-position: center;
+}
+
+#Three {
+  background-position: center;
+}
+
+#text-content {
+  width: 70%;
+}
+
+#BGH1, #BGH2, #BGH3, #BGH4 {
+  width: 50%;
+  border-radius: 0;
+}
+
+p {
+  margin-top: .5em;
+}
+/*End Of Body*/
+
+
+/*Footer*/
+.sm-link {
+  display: inline-block;
+  margin-top: 3em;
+  margin-left: 13em;
+}
+/*End Of Footer*/
+}
+/*End Of Tablets*/
+
+
+
+/*Phone*/
+@media screen and (min-width: 320px) and (max-width: 784px) {
+/*Nav Bar*/
+.logo {
+  margin-left: 1.6em;
+}
+
+#icons {
+  float: right;
+  margin: 1em;
+  font-size: 1.6em;
+  display: block;
+  color: white;
+}
+
+#icons:before {
+  content: "\2630";
+  cursor: pointer;
+}
+
+.active #icons:before {
+  content: "\2715";
+  cursor: pointer;
+}
+
+#nav #ul {
+  position: fixed;
+  left: -200%;
+  top: 10%;
+  flex-direction: column;
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  transition: 0.25s;
+  height: 70%;
+}
+
+#nav.active #ul {
+  left: 0;
+}
+/*End Of Nav Bar*/
+
+
+/*Header*/
+h1 {
+  font-size: 5rem;
+  margin-right: .3em;
+}
+/*End Of Header*/
+
+
+/*Body*/
+#BGH1, #BGH2, #BGH3, #BGH4 {
+  width: 100%;
+  border-radius: 0;
+  margin-top:-3em;
+  margin-bottom: 1em;
+}
+
+.txt-bgh {
+  width: 100%;
+  margin-left: 0;
+}
+
+.grid-item {
+  width: 100%;
+}
+
+#One, #Two, #Three, #Four {
+  border-radius: 0;
+}
+
+#text-content {
+  display: none;
+}
+/*End Of Body*/
+
+
+/*Avis*/
+#avs-ic {
+  margin-left: 13em;
+  margin-right: 13em;
+}
+
+.avs-title {
+  font-size: 3em;
+}
+
+.avs-container {
+  width: 100%;
+  display: block;
+}
+
+.avs-grid {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 4em;
+  border-bottom: none;
+}
+/*End Of Avis*/
+
+
+/*Footer*/
+.sm-link {
+  display: inline-block;
+  margin: 4em 3em 0 3em;
+}
+
+.link-list {
+  margin-top: 4.5em;
+}
+
+.center-link {
+  width: 100%;
+}
+/*End Of Footer*/
+}
+/*End Of Phone*/

@@ -1,0 +1,13 @@
+RewriteEngine On
+
+# USERS
+RewriteRule ^register$ /controllers/users/registerController.php
+RewriteRule ^login$ /controllers/users/loginController.php
+RewriteRule ^account$ /controllers/users/updateAccountDeleteController.php
+RewriteRule ^logout$ /controllers/users/logoutController.php
+RewriteRule ^index-delete-account$ /index.php?deleteaccount=true 
+
+
+#ERRORS
+RewriteRule ^erreur-connexion$ errors/databaseError.php
+ErrorDocument 404 /errors/error404.php

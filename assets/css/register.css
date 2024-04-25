@@ -1,0 +1,154 @@
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior : smooth;
+}
+  
+
+
+/*Nav Bar*/
+#nav {
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Prompt', sans-serif;
+  position: fixed;
+  top:0;
+  width: 100%;
+  z-index: 5;
+}
+
+#home-lnk {
+  text-decoration: none;
+}
+
+.logo {
+  font-size: 30px;
+  background: linear-gradient(90deg, #12C2E9 0%, #c471ed 50%, #f64f59 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  float: left;
+  font-family: 'Zen Dots', sans-serif;
+  font-style: oblique;
+  margin-top: 10px;
+  padding: 20px;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+/*End Of Nav Bar*/
+
+
+
+/*Body*/
+body {
+  margin:0;
+  padding: 0;
+  width: 100%;   
+  box-sizing: border-box;
+  font-family: 'Prompt', sans-serif;
+  color: whitesmoke;
+  background-color: black;
+}
+
+
+/*Register form*/
+#messages {
+  text-align: center;
+  color: #FF00FF;
+}
+
+.form-container {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding-right: 18em;
+}
+ 
+form {
+  width: 60%;
+  background: rgba(0, 0, 0, 0.28);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.2px);
+  -webkit-backdrop-filter: blur(8.2px);
+  border: none;
+}
+  
+h1 {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background: linear-gradient(90deg, #12C2E9 0%, #c471ed 50%, #f64f59 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent; 
+}
+
+input[type="password"]::placeholder {                  
+  color: lightslategray;
+}                 
+  
+input[type="mail"]::placeholder {  
+  color: lightslategrey;
+}   
+  
+input {
+  width: 100%;
+  font-size: 13px;
+  border: 1px solid whitesmoke;
+  background: transparent;
+  padding: 20px;
+  color: whitesmoke;
+  border-radius: 1em;
+  margin-bottom: 2em;
+  margin-top: .6em;
+}
+  
+label {
+  float: left;
+  color: whitesmoke;
+  font-size: 13px;
+}
+ 
+.sub {
+  margin-top: 2em;
+  margin-bottom: 3em;
+  border-radius: 1.2rem;
+  color: whitesmoke;
+  border: 1px solid whitesmoke;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  cursor: pointer;
+  width: 10em;
+}
+  
+.sub:hover {
+  background: linear-gradient(90deg, #12C2E9 0%, #c471ed 50%, #f64f59 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}  
+/*End of Register form*/
+/*End Of Body*/
+
+
+
+/*Footer*/
+div {
+  color: lightslategrey;
+  font-size: .7em;
+  gap: 3em; 
+  list-style-type: none;
+  font-family: 'Prompt', sans-serif;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 6em;
+}
+
+li:hover {
+  cursor: pointer;
+  background: linear-gradient(90deg, #12C2E9 0%, #c471ed 50%, #f64f59 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/*End Of Footer*/

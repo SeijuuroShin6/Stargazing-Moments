@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  scroll-behavior : smooth;
+}
+
+body {
+  margin:0;
+  padding: 0;
+  overflow-x: hidden; 
+}
+
+p {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: lightslategrey;
+  font-size: 1em;
+  font-family: 'Prompt', sans-serif;
+  padding-top: 1rem;
+}
